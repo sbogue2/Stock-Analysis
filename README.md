@@ -2,8 +2,14 @@
 
 ## Overview of Project
 
-The purpose of this project was to help a friend out with automating analyses on various stocks to help inform which stocks are good investments. All analyses are perfomred with Visual Basic Analysis (VBA) programming language in Microsoft Excel. 
+The purpose of this project was to help a friend out with automating analyses on various stocks to help inform which stocks are good investments. All analyses are perfomred with Visual Basic Analysis (VBA) programming language in Microsoft Excel.
+
+The original code I wrote worked well, but contained nested loops that increased the time required to run the script. In order to make the code more efficient and work better with larger datasets, I refactored the code. 
 ## Results
+My refactored code increased the efficiency of the script, resulting in faster run time. For stocks from year 2017, the refactored code ran in 0.11 seconds, compared to 0.74 seconds for the original code. Likewise, the refactored code for year 2018 ran in 0.10 seconds, compared to 0.75 seconds for the original code. 
+
+My refactored code is below:
+
 ```VBA
 Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
@@ -136,7 +142,6 @@ Sub AllStocksAnalysisRefactored()
 End Sub
 
 ```
-###Analysis is well described with screenshots and code
 
 ##Summary
 
