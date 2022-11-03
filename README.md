@@ -1,8 +1,9 @@
 # Stock-Analysis
 
 ## Overview of Project
+##Purpose
 
-sal;kjfda;lsadkjfas;lkjadsfsd
+The purpose of this project was to help a friend out with performing stock market analyes to determine which stocks are good investments. 
 
 ## Results
 
