@@ -143,7 +143,7 @@ End Sub
 
 ```
 
-##Summary
+## Summary
 
 The main advantage to refactoring code is to increase the efficiency of the script to be able to handle larger datasets. While this is a good thing, messing with code can, and will introduce bugs into the code that can potentially take a long time to fix. 
 
